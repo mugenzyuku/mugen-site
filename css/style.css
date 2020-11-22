@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: serif;
   background: #fff;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   color: black;
   text-align: center !important;
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.45;
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: serif;
 }
 
 .text-primary {
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5,
 .site-cover .site-subheading, .site-cover p {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
-  font-family: "Raleway", sans-serif;
+  font-family: serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5,
 }
 
 .menu-item .menu-price {
-  font-family: "Playfair Display", serif;
+  font-family: serif;
   font-size: 24px;
 }
 
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5,
   padding-left: 30px;
   padding-right: 30px;
   font-size: 16px;
-  font-family: "Playfair Display", serif;
+  font-family: serif;
 }
 
 .btn.btn-lg {
@@ -503,7 +503,7 @@ textarea.form-control {
   text-transform: uppercase;
   letter-spacing: .5em;
   color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: serif;
   font-weight: 300;
 }
 
@@ -536,7 +536,7 @@ textarea.form-control {
 }
 
 .site-section {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 
 .site-bg-dark {
@@ -980,9 +980,15 @@ th:nth-child(1){
 }
 
 .display-5{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .table-width-1 th{
   min-width: 230px;
+}
+
+.p-bold{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
