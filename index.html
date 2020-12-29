@@ -21,9 +21,9 @@
   </head>
   <body data-spy="scroll" data-target="#site-navbar" data-offset="200">
     
-    <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark site_navbar site-bg-black site-navbar-light" id="site-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">無限塾</a>
+        <a class="navbar-brand" href="index.html"><img src="images/navbar-titile.png" class="navbar-image"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
@@ -31,10 +31,14 @@
         <div class="collapse navbar-collapse" id="site-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#about-mugenzyuku" class="nav-link">無限塾について</a></li>
-            <li class="nav-item"><a href="#class" class="nav-link">詳細</a></li>
-            <li class="nav-item"><a href="#question" class="nav-link">その他・質問</a></li>
-            <li class="nav-item"><a href="#achievement" class="nav-link">実績</a></li>
+            <li class="nav-item"><a href="#result" class="nav-link">合格実績</a></li>
+            <li class="nav-item"><a href="#class-1" class="nav-link">医学部専門クラス</a></li>
+            <li class="nav-item"><a href="#class-2" class="nav-link">高卒生クラス</a></li>
+            <li class="nav-item"><a href="#class-3" class="nav-link">現役生</a></li>
+            <li class="nav-item"><a href="#teach" class="nav-link">指導方法</a></li>
+            <li class="nav-item"><a href="#fee" class="nav-link">指導料</a></li>
+            <li class="nav-item"><a href="#question" class="nav-link">よくあるご質問</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">所在地</a></li>
           </ul>
         </div>
       </div>
@@ -45,150 +49,350 @@
       <div class="container">
         <div class="row align-items-center justify-content-center site-vh-100">
           <div class="col-md-12">
-            <img src="images/mugen-logo.png" class="img-fluid text-center" alt="logo">
+            <img src="images/mugen_title.png" class="img-fluid text-center" alt="logo">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section" id="result">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 site-animate mb-5 text-center">
+            <img src="images/infomation_1.png" class="img-fluid text-center" alt="logo">
+            <br>
+            <img src="images/title_1.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <table align="center">
+              <tr>
+                <th>
+                  入塾時医学部希望者
+                </th>
+                <th>
+                  41名
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  医学部医学科進学者
+                </th>
+                <th>
+                  35名
+                </th>
+              </tr>
+            </table>
+            <br><br>
+            <p>合格率<a class="p-5">85.4</a>%</p>
+            <br><br>
+            <table align="center">
+              <tr>
+                <th>
+                  高3生
+                </th>
+                <th>
+                  11名
+                </th>
+                <th>
+                  高卒生
+                </th>
+                <th>
+                  24名
+                </th>
+              </tr>
+            </table>
+            <table align="center">
+              <tr>
+                <th>
+                  うち国公立29名
+                </th>
+                <th>
+                  私立6名
+                </th>
+              </tr>
+            </table>
+            <p>(不合格者6名は歯学、薬学、理工学、獣医学部などへの進学)</p>
+            <br><br><br><br>
+            <img src="images/title_2.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <br><br>
+            <p>卒塾生 125名</p>
+            <br><br>
+            <p>うち国公立103名・・・<a class="p-5">82.4</a>%</p>
+            <br>
+            <table align="center">
+              <tr>
+                <th>主要国公立大学進学人数</th>
+                <th>東京大学 3名</th>
+                <th>京都大学 8名</th>
+                <th>大阪大学 4名</th>
+              </tr>
+              <tr>
+                <th></th>
+                <th>一橋大学 2名</th>
+                <th>名古屋大学 23名</th>
+                <th>北海道大学 4名</th>
+              </tr>
+              <tr>
+                <th></th>
+                <th>九州大学2名など</th>
+              </tr>
+              <tr>
+                <th>主要国私立大学進学人数</th>
+                <th>慶応義塾大学 3名</th>
+                <th>早稲田大学 2名</th>
+                <th>上智大学 5名</th>
+              </tr>
+              <tr>
+                <th></th>
+                <th colspan="2">立教、明治、中央、関関同立など複数名</th>
+              </tr>
+            </table>
+            <table align="center" class="table-width-1">
+              <tr><td>&nbsp;</td></tr>
+              <tr>
+                <th>※ 入塾時における成績に関しましては個々異なりますので掲載できませんが</th>
+              </tr>
+              <tr>
+                <th>  例えば東海高校からの入塾者は29名のうちA群から8名B群から21名</th>
+              </tr>
+              <tr>
+                <th>  南山女子高校からの入塾者は18名うち40位以内からは6名41番以下12名</th>
+              </tr>
+              <tr>
+                <th>  公立高校上位校（旭ヶ丘、明和、菊里、向陽）からの入塾生は52名うち60位以内は11名 など</th>
+              </tr>
+              <tr>
+                <th>  入塾時に必ずしもすべてのお子様が成績優秀であったわけではありません。</th>
+              </tr>
+              <tr><td>&nbsp;</td></tr>
+              <tr>
+                <th>※ 千種移転前は14年間本山にて指導しておりました。</th>
+              </tr>
+              <tr>
+                <th>  当時の卒塾生（計151名）は現在よりもかなり優秀な塾生が多数いましたので</th>
+              </tr>
+              <tr>
+                <th>  合格率や進学大学の掲載は控えました。</th>
+              </tr>
+              <tr><td>&nbsp;</td></tr>
+              <tr>
+                <th>※ 上記以外の詳細はお問い合わせください。</th>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
     </section>
     <!-- END section -->
     
-    <section class="site-section" id="about-mugenzyuku">
+    <section class="site-section">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12 site-animate mb-5 text-left">
-            <h2 class="site-primary-title display-4 text-center">【無限塾について】</h2>
-            <table class="display-5">
-              <tr>
-                <th>所在地</th>
-                <th>本館</th>
-                <th>名古屋市東区３丁目２５-３０</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th></th>
-                <th>（地下鉄千種５番出口から南へ徒歩1分）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>医学部別館</th>
-                <th>名古屋市東区3丁目23-1 ルミナス千種5F</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th></th>
-                <th>（地下鉄千種5番出口から西へ徒歩1分）</th>
-              </tr>
-              <tr>
-                <th>電話</th>
-                <th>052-934-0300</th>
-                <th></th>
-              </tr>
-              <tr>
-                <th>塾長</th>
-                <th>長江 明治</th>
-                <th></th>
-              </tr>
-            </table>
+          <div class="col-md-12 site-animate mb-5 text-center p-1">
+            <img src="images/title_3.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <br>
+            <section id="class-1">
+              <img src="images/subtitle_5_1.png" class="img-fluid text-center subtitle-1" alt="logo">
+              <br>
+              <p>対象</p>
+              <br>
+              <p class="p-3">高卒生</p>
+              <br>
+              <p>年間スケジュール</p>
+              <p class="p-3">3月初旬から</p>
+              <p class="p-3">3週間無料指導</p>
+              <p>数学の1単元を完全指導し、１年間の当塾の指導法などを説明致します。</p>
+              <p>ご納得いくまで個別面談などを行います。</p>
+              <p>お気に入りいただけましたらご入塾となります。</p>
+              <br>
+              <p>入塾後は</p>
+              <br>
+              <p class="p-3">4月第2週から</p>
+              <p class="p-3">入試日前日まで指導致します。</p>
+              <p>夏期講習、冬期講習、直前講習はすべて含みます。</p>
+              <p>お盆、年末年始に若干お休みをいただきます。</p>
+              <br>
+              <p>各週スケジュール</p>
+              <br>
+              <p class="p-3">月曜〜土曜</p>
+              <p class="p-3">日曜は自習室のみ開放</p>
+              <p class="p-3">（塾生のみ 無料）</p>
+              <p>各日スケジュール</p>
+              <p class="p-3">朝9:30 〜 夜8時</p>
+              <p>（延長アリ）</p>
+              <p>指導科目</p>
+              <p>数学 英語 理科 小論 国語 ※社会は個別対応</p>
+            </section>
+            <section id="class-2">
+              <img src="images/subtitle_5_2.png" class="img-fluid text-center subtitle-1" alt="logo">
+              <p>対象</p>
+              <p class="p-3">高卒生</p>
+              <br>
+              <p>年間スケジュール</p>
+              <br>
+              <p class="p-3">3月初旬から 3週間無料指導</p>
+              <p>数学の1単元を完全指導し、１年間の当塾の指導法などを説明致します。</p>
+              <p>ご納得いくまで個別面談などを行います。</p>
+              <p>お気に入りいただけましたらご入塾となります。</p>
+              <br>
+              <p>入塾後は</p>
+              <p class="p-3">4月第2週から</p>
+              <p class="p-3">入試日前日まで指導致します。</p>
+              <p>夏期講習、冬期講習、直前講習はすべて含みます。</p>
+              <p>お盆、年末年始に若干お休みをいただきます。</p>
+              <br><br>
+              <p>各週スケジュール</p>
+              <br><br>
+              <p class="p-3">月曜〜土曜</p>
+              <p class="p-3">日曜は自習室のみ開放</p>
+              <p class="p-3">（塾生のみ 無料）</p>
+              <br><br>
+              <p>各日スケジュール</p>
+              <p class="p-3">朝9:30 〜 夜10:00</p>
+              <p>（延長アリ）</p>
+              <br><br>
+              <p>指導科目</p>
+              <p>数学 英語 理科 小論 国語 ※社会は個別対応</p>
+            </section>
+            <br><br><br><br>
+            <section id="class-3">
+              <img src="images/subtitle_5_3.png" class="img-fluid text-center subtitle-1" alt="logo">
+              <p>対象</p>
+              <br>
+              <p class="p-3">高3生</p>
+              <br>
+              <p>年間スケジュール</p>
+              <p class="p-3">3月初旬から 2週間無料指導</p>
+              <p>2月1日 AM10:00受付を開始致します。</p>
+              <p>設置科目の中で必要な科目を選択肢し受講ください。</p>
+              <p>ご納得行くまで個別面倒などを行います。</p>
+              <p>お気に入りいただけましたらご入塾となります。</p>
+              <br>
+              <p>入塾後は</p>
+              <br>
+              <p class="p-3">無料指導終了後から</p>
+              <p class="p-3">入試日前日まで指導致します。</p>
+              <br>
+              <p>お盆、年末年始に若干お休みをいただきます。</p>
+              <br><br>
+              <p>各週スケジュール</p>
+              <br><br>
+              <p class="p-3">月・水・金・土講義</p>
+              <p class="p-3">火・木個別にて課題</p>
+              <p>自習室は月〜金 AM9:00 〜 PM10:00</p>
+              <p>土 AM10:00 〜 PM6:00</p>
+              <p>（無料でご利用できます）</p>
+              <br>
+              <p>各日スケジュール</p>
+              <p class="p-3">夕方5:00 〜 夜10:00</p>
+              <p class="p-3">1講義2時間</p>
+              <p>（延長アリ）</p>
+              <br><br>
+              <p>指導科目</p>
+              <p>数学 英語 理科 小論 国語 ※社会は個別対応</p>
+              <br><br><br><br><br><br><br>
+              <p>対象</p>
+              <br>
+              <p class="p-3">中学生・高1・2生</p>
+              <br>
+              <p>年間スケジュール</p>
+              <br>
+              <p class="p-3">2週間無料指導</p>
+              <p>3月1日 AM10:00受付を開始致します。</p>
+              <p>設置科目の中で必要な科目を選択肢し受講ください。</p>
+              <p>定員に達し次第募集を締め切らせていただきます。</p>
+              <p>お気に入りいただけましたらご入塾となります。</p>
+              <br><br><br><br><br>
+              <p>入塾後は</p>
+              <p class="p-3">・学校の予・復習 ・テスト対策</p>
+              <p class="p-3">・入試への準備 ・弱点の補強など</p>
+              <p class="p-3">ご希望に合わせて指導</p>
+              <p>お盆、年末年始に若干お休みをいただきます。</p>
+              <br>
+              <p>各週スケジュール</p>
+              <br>
+              <p class="p-3">火・木個別にて課題</p>
+              <p class="p-3">月・水・金・土は自習室利用可</p>
+              <p>空き時間であれば質問も可</p>
+              <br>
+              <p>自習室は月〜金 AM9:00 〜 PM10:00</p>
+              <p>土 AM10:00 〜 PM6:00</p>
+              <p>（無料でご利用できます）</p>
+              <br>
+              <p>各日スケジュール</p>
+              <p class="p-3">夕方5:00 〜 夜10:00</p>
+              <p>指導科目</p>
+              <p>主要科目であれば全教科</p>
+            </section>
           </div>
         </div>
       </div>
     </section>
 
     <!-- END section -->
-    <section class="site-section" id="class">
+    <section class="site-section" id="teach">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12 site-animate mb-5 text-left">
+          <div class="col-md-12 site-animate mb-5 text-center p-2">
             <h4 class="site-sub-title"></h4>
-            <h2 class="site-primary-title display-4 text-center">【内容詳細】</h2>
-            <h4 class="site-sub-title text-center">［医学部専門クラス］</h4>
-            <table>
-              <tr>
-                <th>年間スケジュール</th>
-                <th>3月初旬 3週間無料講習</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>・数学の1単元を完全指導し1年間の当塾の指導法を説明いたします。</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>・ご納得行くまで個別面談などを行います。</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>・お気に入りいただけましたら入塾となります。</th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>入塾後</th>
-                <th>4月第2週（未定）〜入試日直前までご指導致します。</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>・夏期講習、冬期講習、直前講習はすべて含みます。</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>・お盆、年末年始似若干お休みをいただきます。</th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>各週スケジュール</th>
-                <th>月曜〜土曜 日曜は自習室のみ開放（塾生のみ 無料）</th>
-                <th></th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>各日スケジュール</th>
-                <th>朝9:30〜夜8時（延長アリ）</th>
-                <th></th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>指導科目</th>
-                <th>数学 英語 理科 小論 国語 ※社会は個別対応</th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>費用</th>
-                <th>1年間 275万円（消費税込み）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>・夏季、冬季、直前すべてを含めた金額です。</th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>指導方法</th>
-                <th>例）問題演習後、添削（弱点をこちらが把握します）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>　　次に講義を行い（全体指導と他者）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>　　その後個別指導で補強してまいります。</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>　　翌日、週末、月末などに確認テストなどで</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>　　不足している部分などを補足します。</th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th></th>
-                <th>※塾生それぞれに対しまして指導方法は変わります。</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>上記は一つの例だとご理解ください。</th>
-              </tr>
-            </table>
+            <img src="images/title_4.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <br>
+            <img src="images/title_4_1.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p>塾にて問題演習</p>
+            <img src="images/title_4_2.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p>演習後添削</p>
+            <img src="images/title_4_3.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p>添削を踏まえ講義</p>
+            <img src="images/title_4_4.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p>講義後個別に補強</p>
+            <img src="images/title_4_5.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p class="p-1">翌日、週末、月末などに確認テストなど</p>
+            <p class="p-1">不足している部分などを補足</p>
+            <br><br><br><br>
+            <p class="p-1">指導方法の根幹は「塾で全てやる！」ということ</p>
+            <p class="p-1">特に当塾作成の問題演習を繰り返す事が重要</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section" id="fee">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 site-animate mb-5 text-center p-1">
+            <img src="images/title_5.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p class="p-2">入塾金・テキスト代・光熱費など一切無し</p>
+            <img src="images/subtitle_5_1.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p class="p-3">250万円（税別）</p>
+            <p>それ以上の金額を不当にいただくことはございません。</p>
+            <p>夏季・冬季・直前などの指導もすべて含みます。</p>
+            <p>極端に出来の悪い科目があれば（中学生レベル以下であったり）</p>
+            <p>別途料金はかかりますが指導いたします。</p>
+            <img src="images/subtitle_5_2.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p class="p-3">理系 150万円（税別）</p>
+            <p class="p-3">文系 120万円（税別）</p>
+            <p>それ以上の金額を不当にいただくことはございません。</p>
+            <p>夏季・冬季・直前などの指導もすべて含みます。</p>
+            <p>極端に出来の悪い科目があれば（中学生レベル以下であったり）</p>
+            <p>別途料金はかかりますが指導いたします。</p>
+            <img src="images/subtitle_5_3.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <br>
+            <img src="images/subtitle_5_4.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <br>
+            <p class="p-3">月額 ¥14,000 × 講座数（税込）</p>
+            <p>１ヶ月の金額です。お間違えのないように。</p>
+            <img src="images/subtitle_5_5.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p class="p-3">月額 ¥22,000（税込）</p>
+            <p>１ヶ月の金額です。お間違えのないように。</p>
+            <br>
+            <img src="images/subtitle_5_6.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <br>
+            <img src="images/subtitle_5_7.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p>中学生は定員5名まで</p>
+            <p>空きができ次第募集</p>
+            <p>ただし、私立の中学生に限ります。</p>
+            <br><br><br><br>
+            <img src="images/subtitle_5_8.png" class="img-fluid text-center subtitle-1" alt="logo">
           </div>
         </div>
       </div>
@@ -198,13 +402,13 @@
     <section class="site-section" id="question">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12 site-animate mb-5 text-left">
-            <h4 class="site-sub-title"></h4>
-            <h2 class="site-primary-title display-4 text-center">【その他・よくあるご質問】</h2>
+          <div class="col-md-12 site-animate mb-5 text-center">
+            <h2 class="site-primary-title display-4 text-center">【よくあるご質問】</h2>
             <table>
               <tr>
                 <th colspan="2">■なぜ医学部に特化したクラスを開講したのか？</th>
               </tr>
+              <tr> </tr>
               <tr>
                 <th></th>
                 <th>以前にも高卒生が医学部志望者だけの時はありました。</th>
@@ -311,115 +515,39 @@
             </table>
             <br>
             <p class="p-bold">上記以外のご質問も随時承っております。 まずはお気軽にお電話ください。</p>
-            <p class="p-bold">無限塾 052-934-0300</p>
+            <br>
+            <img src="images/sub_1.png" class="img-fluid text-center subtitle-1" alt="logo">
+            <p class="p-bold">052-934-0300</p>
           </div>
         </div>
       </div>
     </section>
     <!-- END section -->
 
-    <section class="site-section" id="achievement">
+    <section class="site-section" id="about">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12 site-animate mb-5 text-left">
-            <h2 class="site-primary-title display-4 text-center">【2020年3月までの卒塾生データ】</h2>
-            <p class="text-center">過去12年間 卒塾生総数 166名（うち高卒生　69名）</p>
-            <p class="text-center">（年間塾生定員 高3生 10名 高卒生 8名）</p>
-            <table>
+          <div class="col-md-12 site-animate mb-5 text-center">
+            <h2 class="site-primary-title display-5 text-center">【所在地】</h2>
+            <table align="center">
               <tr>
-                <th>（医学部医学科）</th>
+                <th>本館</th>
+                <th>名古屋市東区葵３丁目２５-３０</th>
               </tr>
               <tr>
                 <th></th>
-                <th>入塾時医学部希望者:</th>
-                <th>41名</th>
+                <th>（地下鉄千種５番出口から南へ徒歩1分）</th>
+              </tr>
+              <tr>
+                <th>医学部別館</th>
+                <th>名古屋市東区3丁目23-1 ルミナス千種5F（馬渕教室の上）</th>
               </tr>
               <tr>
                 <th></th>
-                <th>医学部医学科進学者:</th>
-                <th>35名（合格率:85.4% 高3生:11名 高卒生:24名）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th></th>
-                <th>（うち国公立29名 私立6名）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th></th>
-                <th>（不合格者6名は歯学、薬学、理工学、獣医学部などへ進学）</th>
-              </tr>
-              <tr>
-                <th>（医学部医学科以外）</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>卒業生</th>
-                <th>125名（うち国公立103名・・・82.4%　私立22名・・・17.6%）</th>
+                <th>（地下鉄千種5番出口から西へ徒歩1分）</th>
               </tr>
             </table>
-            <br>
-            <table>
-              <tr>
-                <th>主要国公立大学進学人数</th>
-                <th>東京大学 3名</th>
-                <th>京都大学 8名</th>
-                <th>大阪大学 4名</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>一橋大学 2名</th>
-                <th>名古屋大学 23名</th>
-                <th>北海道大学 4名</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th>九州大学2名など</th>
-              </tr>
-              <tr>
-                <th>主要国私立大学進学人数</th>
-                <th>慶応義塾大学 3名</th>
-                <th>早稲田大学 2名</th>
-                <th>上智大学 5名</th>
-              </tr>
-              <tr>
-                <th></th>
-                <th colspan="2">立教、明治、中央、関関同立など複数名</th>
-              </tr>
-            </table>
-            <table class="table-width-1">
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>※ 入塾時における成績に関しましては個々異なりますので掲載できませんが</th>
-              </tr>
-              <tr>
-                <th>  例えば東海高校からの入塾者は29名のうちA群から8名B群から21名</th>
-              </tr>
-              <tr>
-                <th>  南山女子高校からの入塾者は18名うち40位以内からは6名41番以下12名</th>
-              </tr>
-              <tr>
-                <th>  公立高校上位校（旭ヶ丘、明和、菊里、向陽）からの入塾生は52名うち60位以内は11名 など</th>
-              </tr>
-              <tr>
-                <th>  入塾時に必ずしもすべてのお子様が成績優秀であったわけではありません。</th>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>※ 千種移転前は14年間本山にて指導しておりました。</th>
-              </tr>
-              <tr>
-                <th>  当時の卒塾生（計151名）は現在よりもかなり優秀な塾生が多数いましたので</th>
-              </tr>
-              <tr>
-                <th>  合格率や進学大学の掲載は控えました。</th>
-              </tr>
-              </tr>
-              <tr><td>&nbsp;</td></tr>
-              <tr>
-                <th>※ 上記以外のデータはお問い合わせください。</th>
-              </tr>
-            </table>
+            <img src="images/sub_2.png" class="img-fluid text-center subtitle-1" alt="logo">
           </div>
         </div>
       </div>

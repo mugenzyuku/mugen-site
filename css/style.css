@@ -46,6 +46,9 @@ h1, h2, h3, h4, h5,
   z-index: 3;
 }
 
+@media (min-width: 1300px){
+  max-width: 1300px;
+}
 @media screen and (max-width: 991px) {
   .site-navbar-light {
     background: #000 !important;
@@ -55,7 +58,7 @@ h1, h2, h3, h4, h5,
 }
 
 .site-navbar-light .navbar-nav > .nav-item > .nav-link {
-  font-size: 13px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: .2em;
   padding-top: 30px;
@@ -97,7 +100,7 @@ h1, h2, h3, h4, h5,
   bottom: 10px;
   left: 0;
   width: 2px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255);
 }
 
 @media screen and (max-width: 960px) {
@@ -108,7 +111,7 @@ h1, h2, h3, h4, h5,
 
 .site-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -122,7 +125,7 @@ h1, h2, h3, h4, h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #c0c0c0 !important;
+  background: #black !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -144,8 +147,8 @@ h1, h2, h3, h4, h5,
 
 .site-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
-  border-color: rgba(0, 0, 0, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgba(255, 255, 255, 0) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -156,7 +159,7 @@ h1, h2, h3, h4, h5,
 .site-navbar-light.scrolled .nav-link {
   padding-top: 0.7rem !important;
   padding-bottom: 0.7rem !important;
-  color: #000 !important;
+  color: white !important;
 }
 
 .site-navbar-light.scrolled .nav-link.active {
@@ -207,10 +210,15 @@ h1, h2, h3, h4, h5,
   }
 }
 
+/*
 .site-cover .site-subheading, .site-cover p {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
   font-family: serif;
+}
+*/
+.site-section .site-subheading, .site-section p {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -991,4 +999,37 @@ th:nth-child(1){
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+}
+
+.subtitle-1{
+  max-width: 50% !important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.p-1{
+  font-size: 15px;
+}
+
+.p-2{
+  font-size: 25px;
+}
+
+.p-3{
+  font-size: 30px;
+}
+
+.p-4{
+  font-size: 40px;
+}
+
+.p-5{
+  font-size: 50px;
+}
+.p-6{
+  font-size: 60px;
+}
+
+.navbar-image{
+  height: 50px;
 }
