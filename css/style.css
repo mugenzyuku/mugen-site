@@ -1007,6 +1007,10 @@ th:nth-child(1){
   margin-bottom: 5%;
 }
 
+.subtitle-2{
+  height: 20%;
+}
+
 .p-1{
   font-size: 15px;
 }
