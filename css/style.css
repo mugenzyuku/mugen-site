@@ -1033,3 +1033,7 @@ th:nth-child(1){
 .navbar-image{
   height: 50px;
 }
+
+.home-image{
+  height: 700px;
+}
