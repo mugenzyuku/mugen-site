@@ -1044,7 +1044,7 @@ th:nth-child(1){
     width: 100%;
     table-layout: fixed;
     word-break: break-all;
-    font-size: 1vw;
+    font-size: 3vw;
   }
   th:nth-child(1){
     padding-right: 0px;
