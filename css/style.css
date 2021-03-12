@@ -434,7 +434,7 @@ textarea.form-control {
 @media screen and (max-width: 960px) {
   .site-vh-100 {
     height: inherit;
-    padding-top: 5em;
+    padding-top: 0em;
     padding-bottom: 5em;
   }
 }
@@ -1048,5 +1048,8 @@ th:nth-child(1){
   }
   th:nth-child(1){
     padding-right: 0px;
+  }
+  .home-image{
+      height: auto;
   }
 }
